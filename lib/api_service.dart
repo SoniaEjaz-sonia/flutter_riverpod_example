@@ -21,8 +21,8 @@ class ApiServices {
   }
 }
 
-final userProvider = Provider<ApiServices>((ref) => ApiServices());
+// final userProvider = Provider<ApiServices>((ref) => ApiServices());
 
-final userDataProvider = FutureProvider<List<UserModel>>((ref) async {
-  return ref.watch(userProvider).getUsers();
-});
+// final userDataProvider = FutureProvider<List<UserModel>>((ref) async {
+//   return ref.watch(userProvider).getUsers();
+// });
